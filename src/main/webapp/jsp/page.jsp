@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>${pageName}</title>
+    <link rel="icon" href="/resources/img/head.png" />
 </head>
 <body>
     <div id="root"></div>

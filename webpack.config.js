@@ -3,8 +3,10 @@ var path = require('path');
 module.exports = {
     context: path.resolve(__dirname, 'src/main/jsx'),
     entry: {
-        main: './MainPage.jsx',
-        page1: './Page1Page.jsx'
+        main: './test/MainPage.jsx',
+        page1: './test/Page1Page.jsx',
+        movie_app: './movie_app/MovieApp.jsx'/*,
+        movie: './Movie.jsx'*/
     },
     devtool: 'sourcemaps',
     cache: true,
@@ -20,7 +22,8 @@ module.exports = {
             use: {
                 loader: 'babel-loader',
                 options: {
-                    presets: [ '@babel/preset-env', '@babel/preset-react' ]
+                    presets: [ '@babel/preset-env', '@babel/preset-react' ],
+                    plugins: [ '@babel/plugin-proposal-class-properties' ]
                 }
             }
         }, {
