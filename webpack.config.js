@@ -5,8 +5,8 @@ module.exports = {
     entry: {
         main: './test/MainPage.jsx',
         page1: './test/Page1Page.jsx',
-        movie_app: './movie_app/MovieApp.jsx'/*,
-        movie: './Movie.jsx'*/
+        movie_app: './movie_app/MovieApp.jsx',
+        todo: './todo_list/Todo.jsx'
     },
     devtool: 'sourcemaps',
     cache: true,

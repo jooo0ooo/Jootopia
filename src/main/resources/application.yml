@@ -1,0 +1,31 @@
+spring:
+  profiles:
+    active: local
+  mvc:
+    view:
+      prefix: /jsp/
+      suffix: .jsp
+  datasource:
+    hikari:
+      maximum-pool-size: 5
+
+mybatis:
+  type-aliases-package: com.joo.jootopia.bean
+  mapper-locations: mybatis/mapper/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+---
+
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:postgresql://192.168.100.110:5432/postgres
+    username: jootopia
+    password: jootopia
+    driver-class-name: org.postgresql.Driver
+
+server:
+  port: 9090
+ # servlet:
+ #   context-path: /jootopia
