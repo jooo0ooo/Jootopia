@@ -20,15 +20,17 @@
   "homepage": "https://github.com/jooo0ooo/jootopia#readme",
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
+    "axios": "^0.19.0",
     "clean-webpack-plugin": "^3.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-lines-ellipsis": "^0.14.1"
+    "react-lines-ellipsis": "^0.14.1",
+    "upath": "^1.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.4",
+    "@babel/core": "^7.7.5",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
-    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.1",

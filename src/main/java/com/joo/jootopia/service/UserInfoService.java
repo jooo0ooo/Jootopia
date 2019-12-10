@@ -12,8 +12,8 @@ public class UserInfoService {
 	@Autowired
 	UserInfoMapper mapper;
 
-	public UserInfo getName() {
-		return mapper.getName();
+	public UserInfo getUserInfo() {
+		return mapper.getUserInfo();
 	}
 
 }

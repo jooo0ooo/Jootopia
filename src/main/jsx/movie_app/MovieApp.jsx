@@ -41,7 +41,7 @@ class MovieApp extends React.Component {
     return fetch(
       'https://yts.lt/api/v2/list_movies.json?sort_by=download_count'
     )
-      .then(potato => potato.json())
+      .then(response => response.json())
       .then(json => json.data.movies)
       .catch(err => console.log(err))
   };

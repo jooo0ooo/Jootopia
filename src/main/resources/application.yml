@@ -20,9 +20,9 @@ mybatis:
 spring:
   profiles: local
   datasource:
-    url: jdbc:postgresql://192.168.100.110:5432/postgres
-    username: jootopia
-    password: jootopia
+    url: jdbc:postgresql://localhost:5433/dbname
+    username: username
+    password: password
     driver-class-name: org.postgresql.Driver
 
 server:
