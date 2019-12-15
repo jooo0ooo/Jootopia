@@ -7,7 +7,6 @@ import axios from 'axios';
 class MainPage extends React.Component {
 
     handleCreate = () => {
-        //return (
         axios.get('/get_name')
         .then(function(response) {
             alert(response.data.seq + " : " + response.data.name);

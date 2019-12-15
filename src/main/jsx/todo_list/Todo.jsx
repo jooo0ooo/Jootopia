@@ -19,7 +19,8 @@ class Todo extends React.Component {
         todos: [
             {id: 0, text: 'Watching TV', checked: false},
             {id: 1, text: 'Going to work', checked: true},
-            {id: 2, text: 'Studying React', checked: false}
+            {id: 2, text: 'Studying React', checked: false},
+            {id: 4, text: 'Test', checked: false},
         ],
         color: '#343a40'
     }

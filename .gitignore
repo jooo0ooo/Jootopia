@@ -45,7 +45,3 @@ sketch
 
 ### VS Code ###
 .vscode/
-
-### Java-Web ###
-## ignoring target file
-target/

@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": ".\\mvnw spring-boot:run",
-    "watch": "node_modules\\.bin\\webpack --watch -d"
+    "start": "./mvnw spring-boot:run",
+    "watch": "node_modules/.bin/webpack --watch -d"
   },
   "repository": {
     "type": "git",
