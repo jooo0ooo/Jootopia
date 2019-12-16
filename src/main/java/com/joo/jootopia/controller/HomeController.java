@@ -19,8 +19,8 @@ public class HomeController {
 
     @GetMapping("/")
     public ModelAndView home() {
-        ModelAndView mav = new ModelAndView("root");
-        mav.addObject("pageName", "page1");
+        ModelAndView mav = new ModelAndView("main");
+        mav.addObject("pageName", "Welcome to Jootopia");
         return mav;
     }
 
