@@ -1,4 +1,4 @@
-import './../../webapp/css/test/custom.css';
+import './../../webapp/resources/css/test/custom.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';

@@ -1,5 +1,5 @@
 import React from 'react';
-import './../../../webapp/css/todo/Form.css';
+import './../../../webapp/resources/css/todo/Form.css';
 
 const Form = ({value, onChange, onCreate, onKeyPress, color}) => {
     return (

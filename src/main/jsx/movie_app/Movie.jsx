@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import LinesEllipsis from 'react-lines-ellipsis'
-import './../../webapp/css/movie_app/Movie.css';
+import './../../webapp/resources/css/movie_app/Movie.css';
 
 /*
 class Movie extends Component {

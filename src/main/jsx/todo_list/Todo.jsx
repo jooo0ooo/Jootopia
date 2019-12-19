@@ -5,7 +5,7 @@ import TodoListTemplate from './components/TodoListTemplate.jsx';
 import Form from './components/Form.jsx';
 import TodoItemList from './components/TodoItemList.jsx';
 import Palette from "./components/Palette.jsx";
-import './../../webapp/css/todo/Todo.css';
+import './../../webapp/resources/css/todo/Todo.css';
 
 
 const colors = ['#343a40', '#f03e3e', '#12b886', '#228ae6'];

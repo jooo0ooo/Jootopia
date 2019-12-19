@@ -1,5 +1,5 @@
 import React from 'react';
-import './../../../webapp/css/todo/TodoListTemplate.css';
+import './../../../webapp/resources/css/todo/TodoListTemplate.css';
 
 const TodoListTemplate = ({form, palette, children}) => {
     return (

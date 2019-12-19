@@ -1,7 +1,7 @@
 import "@babel/polyfill";
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './../../webapp/css/movie_app/MovieApp.css';
+import './../../webapp/resources/css/movie_app/MovieApp.css';
 import Movie from './Movie.jsx';
 
 class MovieApp extends React.Component {

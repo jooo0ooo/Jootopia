@@ -12,7 +12,7 @@ module.exports = {
     cache: true,
     output: {
         path: __dirname,
-        filename: './src/main/webapp/js/react/[name].bundle.js'
+        filename: './src/main/webapp/resources/js/react/[name].bundle.js'
     },
     mode: 'none',
     module: {

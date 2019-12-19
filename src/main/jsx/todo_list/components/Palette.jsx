@@ -1,5 +1,5 @@
 import React from 'react';
-import './../../../webapp/css/todo/Palette.css';
+import './../../../webapp/resources/css/todo/Palette.css';
 
 const Color = ({ color, active, onClick }) => {
     return (

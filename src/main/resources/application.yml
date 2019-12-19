@@ -3,7 +3,7 @@ spring:
     active: local
   mvc:
     view:
-      prefix: /jsp/
+      prefix: WEB-INF/jsp/
       suffix: .jsp
   datasource:
     hikari:
@@ -20,12 +20,11 @@ mybatis:
 spring:
   profiles: local
   datasource:
-    url: jdbc:postgresql://localhost:5433/jootopia
-    username: postgres
-    password: pingrae123
+    url: jdbc:postgresql://host:port/dbname
+    username: username
+    password: password
     driver-class-name: org.postgresql.Driver
 
-server:
-  port: 9090
- # servlet:
- #   context-path: /jootopia
+#if you want to change port
+# server:
+#   port: 9090
